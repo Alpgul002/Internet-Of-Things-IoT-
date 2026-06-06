@@ -1,0 +1,16 @@
+Part 1:
+
+Capture your accelerometer data with your phone while standing, sitting, walking and running
+Visually inspect and plot the data and describe what features can be used to distinguish activities and how?
+Part 2:
+
+Record your accelerometer data while walking
+Python code to compute the step count from the data
+Part 3: Extra credit
+
+ Estimate pose from accelerometer and gyroscope
+PS: I noticed Android app may produce data without gravity. That is not accepted. Use the data with gravity
+
+PS2: Your code needs to run on a raspberry pi. Jupyter notebook submissions are not accepted. I will not grade them.
+
+PS3: The less you use library implementations, the more points you will get.

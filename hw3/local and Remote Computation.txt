@@ -1,0 +1,20 @@
+ou will implement a local and remote video analytics system that involves a device and a server
+
+The server: Install VirtualBox on your laptops and create a Ubuntu VM. Alternatively, you can use a Docker container. Implement a Flask or FastAPI server running on port 80. With VirtualBox, you need to perform port forwarding as well so that traffic arriving on your machine on port 80 goes to the VM.
+
+The device: You will receive a Raspberry Pi and a camera from the course TA. You will receive an email about this later. 
+
+Part 1:
+
+The server provides two HTTP endpoints
+The device captures video and sends it to the server through a HTTP POST endpoint. The server applies Yolo on the received frames
+The server streams the number of people in the frame on a HTTP GET endpoint
+Part 2:
+
+The server provides two HTTP endpoints
+The device captures the video and applies Tiny Yolo, sends the number of people captured in the frame to the server via an HTTP POST endpoint
+The server streams the number of people in the frame on a HTTP GET endpoint
+In both cases, compare in a report
+
+the average latency between tne time an image is captured and the corresponding inference on the number of people is made. 
+maximum inference rate, e.g. what is the highest number of frames your system can handle?
